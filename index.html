@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Controle de Transporte com Calendário</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Controle de Entregas por Data</h1>
+
+  <div class="calendar-nav">
+    <button onclick="changeMonth(-1)">&#8592; Mês Anterior</button>
+    <h2 id="monthYear"></h2>
+    <button onclick="changeMonth(1)">Próximo Mês &#8594;</button>
+  </div>
+
+  <div id="calendar" class="calendar"></div>
+
+  <h2 id="selectedDateTitle">Selecione uma data</h2>
+  <div class="container">
+    <div class="tecnicos" id="tecnicos"></div>
+    <div class="area-entrega" id="areaEntrega">
+      <h2>Registrar Entregas</h2>
+      <p>Arraste o técnico aqui para marcar uma entrega na data selecionada.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
