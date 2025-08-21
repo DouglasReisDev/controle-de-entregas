@@ -1,6 +1,6 @@
 const tecnicos = [
   'Wesley', 'Daniel', 'Pablo', 'Matheus', 'Grazi', 'Douglas',
-  'Douglas G', 'Lucas', 'Fagner', 'Eliana' 'Jackson' 
+  'Douglas G', 'Lucas', 'Fagner', 'Eliana','Jackson' 
 ];
 
 let selectedDate = null;
